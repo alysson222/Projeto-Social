@@ -29,11 +29,49 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
     
 
     
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+    
+}
+
+section#redes-sociais{
+   position: fixed;
+   right: 1vw;
+   top: 5vh;
+   width: 6vw;
+   height: 40vh;
+   margin: 0px;
+   
+}
+
+
+ button{
+    display: block;
+    background-color: transparent;
+    border: 0px;
+ }
+
+button:hover{
+    transition: 500ms;
+    border-radius: 100px;
+    transform: scale(1.2);
+   
+ }
+    
+#logo{
+    width: 60px;
+    border-radius: 40px;
+    padding-top: 5px;
 }
