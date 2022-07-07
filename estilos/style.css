@@ -25,6 +25,7 @@ body{
 main{
      position: relative;
      height: 100vh;
+
 }
 
 section#telefone {
@@ -48,30 +49,19 @@ iframe#tela{
      
 }
 
-section#redes-sociais{
-    position: absolute;
-    right: 10px;
+section#redes-sociais {
+    text-align: right;
 }
 
 section#redes-sociais img{
-   border-radius: 100px;   
-   min-width: 50px;
-   max-width: 4vw;
-   margin: 10px;
-   
+   width: 50px;
+   margin: 10px; 
+   border-radius: 50%;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400) ;
 }
 
 
- button{
-    display: block;
-    background-color: transparent;
-    border:0px;
-   
-    
-    
- }
-
-button:hover{
+section#redes-sociais img:hover{
     transition: 500ms;
     border-radius: 98px;
     transform: scale(1.2);
